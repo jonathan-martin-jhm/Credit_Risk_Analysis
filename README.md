@@ -22,24 +22,42 @@ Notebook: [credit_risk_resampling.ipynb](https://github.com/jonathan-martin-jhm/
 #### RandomOverSampler Algorithm
 * Accuracy Score
 
+![RandomOverSampler Accuracy Score](https://github.com/jonathan-martin-jhm/Credit_Risk_Analysis/blob/main/Starter_Code%20(1)/images/RandomOverSampler_AS.png)
+
 * Confusion Matrix
+
+![RandomOverSampler CM](https://github.com/jonathan-martin-jhm/Credit_Risk_Analysis/blob/main/Starter_Code%20(1)/images/RandoOverSampler_CM.png)
 
 * Imbalanced Classification report
 
+![RandomOverSampler ICR](https://github.com/jonathan-martin-jhm/Credit_Risk_Analysis/blob/main/Starter_Code%20(1)/images/RandoOverSampler_ICR.png)
 
 #### SMOTE Algorithm
 * Accuracy Score
 
+![SMOTE AS](https://github.com/jonathan-martin-jhm/Credit_Risk_Analysis/blob/main/Starter_Code%20(1)/images/SMOTE_AS.png)
+
 * Confusion Matrix
 
+![SMOTE CM](https://github.com/jonathan-martin-jhm/Credit_Risk_Analysis/blob/main/Starter_Code%20(1)/images/SMOTE_CM.png)
+
 * Imbalanced Classification report
+
+![SMOTE ICR](https://github.com/jonathan-martin-jhm/Credit_Risk_Analysis/blob/main/Starter_Code%20(1)/images/SMOTE_ICR.png)
 
 #### Cluster Centroids Algorithm
 * Accuracy Score
 
+![CC AS](https://github.com/jonathan-martin-jhm/Credit_Risk_Analysis/blob/main/Starter_Code%20(1)/images/CC_AS.png)
+
 * Confusion Matrix
 
+![CC CM](https://github.com/jonathan-martin-jhm/Credit_Risk_Analysis/blob/main/Starter_Code%20(1)/images/CC_CM.png)
+
 * Imbalanced Classification report
+
+![CC ICR](https://github.com/jonathan-martin-jhm/Credit_Risk_Analysis/blob/main/Starter_Code%20(1)/images/CC_ICR.png)
+
 
 
 ### Deliverable 2: Use the SMOTEENN Algorithm to Predict Credit Risk.
