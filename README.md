@@ -127,6 +127,9 @@ Notebook: [credit_risk_ensemble.ipynb](https://github.com/jonathan-martin-jhm/Cr
 
 ## Summary
 
+From all of the models generated in the analyses above, I would recommend the EasyEnsembleClassifier (EEC) model for the low risk loan model as this model showed the highest scores for accuracy, precision, recall, specificy and F1 scores. I do not recommend using any of the models for predicting high risks loan as all of the models had low scores for all of the aforementioned attributes. The EEC low risk loan model could act as the lone threshload for loan approval. 
+
+
 ### Summary of Models for High Risk Loans
 ![High Risk Loan Summary](https://github.com/jonathan-martin-jhm/Credit_Risk_Analysis/blob/main/Starter_Code%20(1)/images/high_risk_loan.png)
 
