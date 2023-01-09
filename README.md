@@ -126,3 +126,8 @@ Notebook: [credit_risk_ensemble.ipynb](https://github.com/jonathan-martin-jhm/Cr
 
 
 ## Summary
+### Summary of Models for High Risk Loans
+![High Risk Loan Summary]()
+
+### Summary of Models for Low Risk Loans
+![Low Risk Loan Summary]()
