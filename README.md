@@ -128,10 +128,10 @@ Notebook: [credit_risk_ensemble.ipynb](https://github.com/jonathan-martin-jhm/Cr
 ## Summary
 
 ### Summary of Models for High Risk Loans
-![High Risk Loan Summary](https://github.com/jonathan-martin-jhm/Credit_Risk_Analysis/blob/main/Starter_Code%20(1)/images/high_risk_loan_summary.png)
+![High Risk Loan Summary](https://github.com/jonathan-martin-jhm/Credit_Risk_Analysis/blob/main/Starter_Code%20(1)/images/high_risk_loan.png)
 
 
 ### Summary of Models for Low Risk Loans
-![Low Risk Loan Summary](https://github.com/jonathan-martin-jhm/Credit_Risk_Analysis/blob/main/Starter_Code%20(1)/images/low_risk_loan_summary.png)
+![Low Risk Loan Summary](https://github.com/jonathan-martin-jhm/Credit_Risk_Analysis/blob/main/Starter_Code%20(1)/images/low_risk_loan.png)
 
 
