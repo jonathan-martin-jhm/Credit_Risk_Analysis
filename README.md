@@ -63,6 +63,21 @@ Notebook: [credit_risk_resampling.ipynb](https://github.com/jonathan-martin-jhm/
 ### Deliverable 2: Use the SMOTEENN Algorithm to Predict Credit Risk.
 Using your knowledge of the imbalanced-learn and scikit-learn libraries, you’ll use a combinatorial approach of over- and undersampling with the SMOTEENN algorithm to determine if the results from the combinatorial approach are better at predicting credit risk than the resampling algorithms from Deliverable 1. Using the SMOTEENN algorithm, you’ll resample the dataset, view the count of the target classes, train a logistic regression classifier, calculate the balanced accuracy score, generate a confusion matrix, and generate a classification report.
 
+Notebook: [credit_risk_resampling.ipynb](https://github.com/jonathan-martin-jhm/Credit_Risk_Analysis/blob/main/Starter_Code%20(1)/Starter_Code/credit_risk_resampling.ipynb)
+
+* Accuracy Score
+
+![SMOTEENN AS](https://github.com/jonathan-martin-jhm/Credit_Risk_Analysis/blob/main/Starter_Code%20(1)/images/SMOTEENN_AS.png)
+
+* Confusion Matrix
+
+![SMOTEENN CM](https://github.com/jonathan-martin-jhm/Credit_Risk_Analysis/blob/main/Starter_Code%20(1)/images/SMOTEENN_CM.png)
+
+* Imbalanced Classification Report
+
+![SMOTEENN ICR](https://github.com/jonathan-martin-jhm/Credit_Risk_Analysis/blob/main/Starter_Code%20(1)/images/SMOTEENN_ICR.png)
+
+
 ### Deliverable 3: Use Ensemble Classifiers to Predict Credit Risk.
 Using your knowledge of the imblearn.ensemble library, you’ll train and compare two different ensemble classifiers, BalancedRandomForestClassifier and EasyEnsembleClassifier, to predict credit risk and evaluate each model. Using both algorithms, you’ll resample the dataset, view the count of the target classes, train the ensemble classifier, calculate the balanced accuracy score, generate a confusion matrix, and generate a classification report.
 credit_risk_ensemble.ipynb
