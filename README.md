@@ -13,11 +13,13 @@ Using the credit card credit dataset from LendingClub, a peer-to-peer lending se
 * Deliverable 3: Use Ensemble Classifiers to Predict Credit Risk.
 * Deliverable 4: A Written Report on the Credit Risk Analysis (README.md).
 
+
 ## Results
 ### Deliverable 1: Use Resampling Models to Predict Credit Risk.
 Using your knowledge of the imbalanced-learn and scikit-learn libraries, you’ll evaluate three machine learning models by using resampling to determine which is better at predicting credit risk. First, you’ll use the oversampling RandomOverSampler and SMOTE algorithms, and then you’ll use the undersampling ClusterCentroids algorithm. Using these algorithms, you’ll resample the dataset, view the count of the target classes, train a logistic regression classifier, calculate the balanced accuracy score, generate a confusion matrix, and generate a classification report.
 
 Notebook: [credit_risk_resampling.ipynb](https://github.com/jonathan-martin-jhm/Credit_Risk_Analysis/blob/main/Starter_Code%20(1)/Starter_Code/credit_risk_resampling.ipynb)
+
 
 #### RandomOverSampler Algorithm
 * Accuracy Score
@@ -32,6 +34,7 @@ Notebook: [credit_risk_resampling.ipynb](https://github.com/jonathan-martin-jhm/
 
 ![RandomOverSampler ICR](https://github.com/jonathan-martin-jhm/Credit_Risk_Analysis/blob/main/Starter_Code%20(1)/images/RandoOverSampler_ICR.png)
 
+
 #### SMOTE Algorithm
 * Accuracy Score
 
@@ -44,6 +47,7 @@ Notebook: [credit_risk_resampling.ipynb](https://github.com/jonathan-martin-jhm/
 * Imbalanced Classification report
 
 ![SMOTE ICR](https://github.com/jonathan-martin-jhm/Credit_Risk_Analysis/blob/main/Starter_Code%20(1)/images/SMOTE_ICR.png)
+
 
 #### Cluster Centroids Algorithm
 * Accuracy Score
@@ -78,7 +82,47 @@ Notebook: [credit_risk_resampling.ipynb](https://github.com/jonathan-martin-jhm/
 ![SMOTEENN ICR](https://github.com/jonathan-martin-jhm/Credit_Risk_Analysis/blob/main/Starter_Code%20(1)/images/SMOTEENN_ICR.png)
 
 
+
 ### Deliverable 3: Use Ensemble Classifiers to Predict Credit Risk.
 Using your knowledge of the imblearn.ensemble library, you’ll train and compare two different ensemble classifiers, BalancedRandomForestClassifier and EasyEnsembleClassifier, to predict credit risk and evaluate each model. Using both algorithms, you’ll resample the dataset, view the count of the target classes, train the ensemble classifier, calculate the balanced accuracy score, generate a confusion matrix, and generate a classification report.
-credit_risk_ensemble.ipynb
+
+Notebook: [credit_risk_ensemble.ipynb](https://github.com/jonathan-martin-jhm/Credit_Risk_Analysis/blob/main/Starter_Code%20(1)/Starter_Code/credit_risk_ensemble.ipynb)
+
+
+#### BalancedRandomForestClassifier
+* Accuracy Score
+
+![BalancedRandomForestClassifier AS](https://github.com/jonathan-martin-jhm/Credit_Risk_Analysis/blob/main/Starter_Code%20(1)/images/BRFC_AS.png)
+
+* Confusion Matrix
+
+![BalancedRandomForestClassifier CM](https://github.com/jonathan-martin-jhm/Credit_Risk_Analysis/blob/main/Starter_Code%20(1)/images/BRFC_CM.png)
+
+* Imbalanced Classification Report
+
+![BalancedRandomForestClassifier ICR](https://github.com/jonathan-martin-jhm/Credit_Risk_Analysis/blob/main/Starter_Code%20(1)/images/BRFC_ICR.png)
+
+* Feature Importance
+
+![BalancedRandomForestClassifier Importances1](https://github.com/jonathan-martin-jhm/Credit_Risk_Analysis/blob/main/Starter_Code%20(1)/images/BRFC_list1.png)
+
+![BalancedRandomForestClassifier Importances2](https://github.com/jonathan-martin-jhm/Credit_Risk_Analysis/blob/main/Starter_Code%20(1)/images/BRFC_list2.png)
+
+
+#### EasyEnsembleClassifier
+* Accuracy Score
+
+![EasyEnsembleClassifier AS](https://github.com/jonathan-martin-jhm/Credit_Risk_Analysis/blob/main/Starter_Code%20(1)/images/EEC_AS.png)
+
+* Confusion Matrix
+
+![EasyEnsembleClassifier CM](https://github.com/jonathan-martin-jhm/Credit_Risk_Analysis/blob/main/Starter_Code%20(1)/images/EEC_CM.png)
+
+* Imbalanced Classification Report
+
+![EasyEnsembleClassifier ICR](https://github.com/jonathan-martin-jhm/Credit_Risk_Analysis/blob/main/Starter_Code%20(1)/images/EEC_ICR.png)
+
+
+
+
 ## Summary
